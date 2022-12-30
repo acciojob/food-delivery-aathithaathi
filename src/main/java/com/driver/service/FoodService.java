@@ -14,5 +14,4 @@ public interface FoodService {
 	FoodDto updateFoodDetails(String foodId, FoodDto foodDetails) throws Exception;
 	void deleteFoodItem(String id) throws Exception;
 	List<FoodDto> getFoods();
-
 }
